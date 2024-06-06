@@ -1,0 +1,73 @@
+.sectionPlanos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sectionPlanos h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.containerPlanos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.plano{
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 10px 10px;
+}
+
+.plano div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+}
+
+.planoTitle{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 25px;
+}
+
+.chooseButton{
+    border: 2px orange solid;
+    border-radius: 10px;
+    padding: 5px 40px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.planoVal{
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+
+@media (max-width:960px) {
+    .containerPlanos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width:500px) {
+    .containerPlanos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

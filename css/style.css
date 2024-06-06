@@ -1,0 +1,192 @@
+
+.sobreNos {
+    max-width: 100%;
+    max-height: 120vh auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ccc;
+}
+
+.conteudo {
+    width: 40%;
+    height: 100%;
+    margin: 2% 5%;
+    text-align: center;
+
+}
+
+.conteudo img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 80px;
+}
+
+.conteudo h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.midia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.midia h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.midiaArea {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.midiaArea video {
+    width: 384px;
+    height: 211.2px;
+    border: none;
+    background: none;
+    padding: 5px 15px;
+}
+
+.videoArea {
+    box-shadow: 4px 4px 4px 4px #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 40px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.videoArea h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+.final-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 40px;
+    background-color: orange;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    padding: 10px 10px 10px 10px;
+}
+
+.final-bar div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+    text-align: center;
+}
+
+.final-bar div h2 {
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.redes-sociais h2 {
+    text-align: center;
+}
+
+.divRedesSociais {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 60px;
+}
+
+.divRedesSociais i {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+}
+
+.divRedesSociais p {
+    margin-left: 8px;
+}
+
+
+@media (max-width:990px) {
+    .sobreNos {
+        flex-direction: column;
+    }
+
+    .conteudo {
+        width: 90%;
+        padding: 5px 10px;
+    }
+
+    .midia {
+        text-align: center;
+
+    }
+
+    .midiaArea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .videoArea {
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .final-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .final-bar div {
+        max-width: 100%;
+    }
+
+    .divRedesSociais {
+        margin: 0;
+    }
+
+    .mobileNavBar {
+        width: 60%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

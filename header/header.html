@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header/header.css">
+    <link rel="shortcut icon" href="imagens/logo-favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="navHome">
+            <a href="index.php"><img class="imoogiLogo" src="imagens/sistema imoogi.jpeg" alt=""></a>
+            <div class="headerButtons">
+                <button type="button" class="planosCliente"><a href="valores.php">PLANOS</a></button>
+                <div class="dropdown open">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        LOGIN
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="triggerId">
+                        <button class="dropdown-item"><a href="usuarioLogin.php"
+                                style="text-decoration: none; color: black;">Login como Aluno</a></button>
+                        <button class="dropdown-item"><a href="funcionarioLogin.php"
+                                style="text-decoration: none; color: black;">Login como Colaborador</a> </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <nav class="navbar navbar-expand-md navbar-light  custom-navbar">
+            <div class="container">
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="modalidades.php" aria-current="page">Artes Marciais
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dance.php">IMOOGI Dance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="unidades.php">Unidades</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Colaboradores</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="equipe.php">Nossa Equipe</a>
+                                <a class="dropdown-item" href="gympass.php">Gympass</a>
+                                <a class="dropdown-item" href="totalpass.php">TotalPass</a>
+                                <a class="dropdown-item" href="gurupass.php">Gurupass</a>
+                                <a class="dropdown-item" href="classpass.php">ClassPass</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    <div class="contato">
+                        <a href="https://instagram.com/academiasimoogi_oficial?igshid=MzRlODBiNWFlZA=="><i
+                                class="fa-brands fa-square-instagram fa-2xl" style="color: black;"></i></a>
+                        <a href="https://www.facebook.com/mestre.jefersondasilva?mibextid=ZbWKwL"><i
+                                class="fa-brands fa-square-facebook fa-2xl" ; style="color:black"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=11977010020&text&type=phone_number&app_absent=0"><i
+                                class="fa-brands fa-square-whatsapp fa-2xl" style="color: black;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+</body>
+
+</html>

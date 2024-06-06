@@ -1,0 +1,450 @@
+
+
+.areaPlanos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.tipoPlanos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width:100%;
+}
+
+.tipoPlanos.active{
+    display: none;
+}
+
+.tipoPlanos h1{
+    text-transform: uppercase;
+}
+
+.tipoPlanos p {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    color: red;
+    margin-bottom: 25px;
+}
+
+
+.tipoPlanos button{
+    margin-top: 5px ;
+}
+
+.tipoPlanosbuttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.planosbuttonstext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 35%;
+    margin: 20px;
+}
+
+
+.buttonClubePadrão{
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.buttonClubePadrão.active{
+    display: none;
+}
+
+.buttonClubePadrão:hover{
+    background-color: rgb(243, 243, 52);
+}
+
+.buttonClubePrata{
+    background-color: silver;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buttonClubePrata.active{
+    display: none;
+}
+
+.buttonClubePrata:hover{
+    background-color: rgb(150, 150, 150);
+}
+
+.buttonClubeBronze{
+    background-color: rgb(189, 86, 86);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buttonClubeBronze.active{
+    display: none;
+}
+
+.buttonClubeBronze:hover{
+    background-color: brown;
+}
+
+.modalidadesClubePadrão{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.modalidadesClubePadrão.active{
+    display: flex;
+}
+
+.modalidadesClubePrata{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalidadesClubePrata.active{
+    display: flex;
+}
+
+.modalidadesClubeBronze{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalidadesClubeBronze.active{
+    display: flex;
+}
+
+.modalidadesClubePadrão button{
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.voltar{
+    background-color: red;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.voltar a{
+    text-decoration: none;
+    color: black;
+}
+
+.clubePadrão1M.active{
+    display: none;
+
+}
+
+.clubePadrão2M.active{
+    display: none;
+
+}
+
+.clubePrata1M.active{
+    display: none;
+}
+
+.clubePrata2M.active{
+    display: none;
+}
+
+.clubeBronze1M.active{
+    display: none;
+}
+
+.clubeBronze2M.active{
+    display: none;
+}
+
+.modalidadesClubePadrão button:hover{
+    background-color: #ccc;
+}
+
+.modalidadesClubePrata button{
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.modalidadesClubePrata button:hover{
+    background-color: #ccc;
+}
+
+.modalidadesClubeBronze button{
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.modalidadesClubeBronze button:hover{
+    background-color: #ccc;
+}
+
+.clubePadrãoArea{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clubePadrãoArea2M{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clubePadrãoArea2M.active{
+    display: flex;
+}
+
+.clubePadrãoArea.active{
+    display: flex;
+}
+
+.clubePrataArea{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clubePrataArea.active{
+    display: flex;
+}
+
+.clubePrataArea2M{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clubePrataArea2M.active{
+    display: flex;
+}
+
+.clubeBronzeArea{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clubeBronzeArea.active{
+    display: flex;
+}
+
+.clubeBronzeArea2M{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clubeBronzeArea2M.active{
+    display: flex;
+}
+
+.clubeIMOOGILine{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.clubeIMOOGI-INTERFACE{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.IMOOGIELIPSE{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.clubeIMOOGIPAY{
+    display: flex;
+    margin-top: 10px;
+}
+
+.clubeIMOOGIPAY button{
+   margin: 10px;
+}
+
+.addDependente{
+    border: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.addDependente:hover{
+    background-color: orangered;
+}
+
+.opçõesdependentes{
+    display: none;
+    flex-direction: column;
+}
+
+.opçõesdependentes.active{
+    display: flex;
+}
+
+.dependente{
+    border: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: orange; 
+    display: flex;
+}
+
+
+.dependente a{
+    text-decoration: none;
+    color: black;
+}
+
+.dependente:hover{
+    background-color: orangered;
+}
+
+.pagamentoPadrão{
+    border: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: greenyellow;
+    display: flex;
+
+}
+
+.pagamentoPadrão.active{
+    display: none;
+}
+
+.pagamentoPadrão:hover{
+    background-color: green;
+}
+
+.pagamentoPadrão a{
+    text-decoration: none;
+    color: black;
+}
+
+.dependenteIndvidual{
+    border: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: greenyellow;
+    display: none;
+}
+
+.dependenteIndvidual.active{
+    display: flex;
+}
+
+.dependenteIndvidual a{
+    text-decoration: none;
+    color: black;
+}
+
+.voltardependente.active{
+    display: flex;
+}
+
+
+
+
+@media (max-width: 990px){
+
+
+    .areaPlanos{
+        padding: 5px 15px;
+        text-align: center;
+    }
+
+    .areaPlanos img{
+        max-width: 95%;
+        min-height: 40%;
+        margin-top: 40px;
+
+    }
+
+    .tipoPlanosbuttons{
+        flex-direction: column;
+    }
+
+    .modalidadesbuttonspadrão{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modalidadesbuttonsprata{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modalidadesbuttonsbronze{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clubeIMOOGILine{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .planosbuttonstext{
+        max-width: 100%;
+        margin: 0;
+    }
+
+
+  
+}
+

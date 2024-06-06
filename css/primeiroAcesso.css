@@ -1,0 +1,100 @@
+.primeiroAcessoArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#formPrimeiroAcessoUsuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    padding: 10px 20px;
+}
+
+#formPrimeiroAcessoFuncionario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    padding: 10px 20px;
+}
+
+
+
+
+#formPrimeiroAcessoUsuario input{
+    border-radius: 20px;
+    border: none;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+#formPrimeiroAcessoFuncionario input{
+    border-radius: 20px;
+    border: none;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+#formNovaSenhaUsuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    padding: 10px 20px;
+}
+
+#formNovaSenhaFuncionario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    padding: 10px 20px;
+}
+
+
+#formNovaSenhaUsuario input{
+    border-radius: 20px;
+    border: none;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+
+}
+
+#formNovaSenhaFuncionario input{
+    border-radius: 20px;
+    border: none;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+
+}
+
+.formComponent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button{
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+
+}

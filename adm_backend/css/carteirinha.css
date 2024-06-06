@@ -1,0 +1,84 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuCarteira{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.menuCarteira h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.areaCarteira{
+    max-width: 548.60px;
+    max-height: 356.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #201e1f;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.carteirinhaLogo{
+    width: 200px;
+}
+
+.infoCarteira{
+    display: flex;
+    padding: 15px 15px;
+}
+
+.infoCarteira img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    border: none;
+    
+}
+
+.textCarteira{
+    margin: 0 20px;
+}
+
+.textCarteira h2{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.textCarteira h4{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.pdfButton{
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: rgb(255, 47, 47);
+    border: none;
+    border-radius: 20px;
+    
+}
+
+.pdfButton a{
+    color: black;
+    text-decoration: none;
+}
+
+.pdfButton:hover{
+    background-color: red;
+}

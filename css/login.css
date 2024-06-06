@@ -1,0 +1,86 @@
+.loginArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+#loginUsuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    padding: 10px 20px;
+}
+
+#loginFuncionario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    padding: 10px 20px;
+}
+
+.formComponent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginUsuario input{
+    border-radius: 20px;
+    border: none;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+
+#loginFuncionario input{
+    border-radius: 20px;
+    border: none;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.loginButtons{
+    display: flex;
+}
+
+.loginButtons button{
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+
+}
+
+#buttonLogin{
+    background-color: greenyellow;
+}
+
+#buttonLogin:hover{
+    background-color: green;
+}
+
+#buttonPrimeiroAcesso{
+    background-color: orange;
+}
+
+#buttonPrimeiroAcesso a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#buttonPrimeiroAcesso:hover{
+    background-color: orangered;
+}
