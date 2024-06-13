@@ -1,0 +1,51 @@
+nav {
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.looged-area {
+    display: flex;
+    align-items: center;
+}
+
+.perfil {
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid black;
+
+}
+
+.mudarSenhaSubmit{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: greenyellow;
+    margin: 5px;
+}
+
+.funcionarioDados{
+    text-align: center;
+}
+
+.areaPerfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mudarSenhaForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-footer a {
+    text-decoration: none;
+    color: white;
+}

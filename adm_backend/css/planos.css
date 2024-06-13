@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.list-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.create-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.create-plan input{
+    max-width: 300px;
+}
+
+.create-plan select{
+    max-width: 300px;
+}
+
+
+.list-plan h2{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.create-plan h2{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table-responsive-sm{
+    max-width: 800px;
+    text-align: center;
+    overflow-x: auto;
+    margin: 0 auto;
+    
+}
+
+thead {
+    background-color: orange;
+    text-align: center;
+}
+
+tbody tr  {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.buttons-table {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons-table button {
+    border: none;
+    border-radius: 100px;
+    padding: 5px 15px;
+}
+
+
+.addPlano {
+    background-color: greenyellow;
+    margin-right: 10px;
+}
+.addPlano:hover {
+    background-color: green;
+}
+
+.delPlano {
+    background-color: rgba(245, 71, 71, 0.911);
+    margin-left: 10px;
+}
+
+.delPlano:hover {
+    background-color: red;
+}
+
+.atualizarPlano {
+    background-color: yellow;
+}
+
+.atualizarPlano:hover {
+    background-color: rgb(202, 202, 29);
+}
+
+.areaAddPlano{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    display: none;
+}
+.areaUpdatePlano{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    display: none;
+}
+
+.areaDeletePlano {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    display: none;
+}
+
+.enviarPlano {
+    border: none;
+    border-radius: 100px;
+    padding: 5px 15px;
+    background-color: greenyellow;
+}
+
+.enviarPlano:hover {
+    background-color: green;
+}
+
+.deletarPlano {
+    border: none;
+    border-radius: 100px;
+    padding: 5px 15px;
+    background-color: rgba(245, 71, 71, 0.911);
+}
+
+.deletarPlano:hover {
+    background-color: red;
+
+}
+
+.updatePlano{
+    border: none;
+    border-radius: 100px;
+    padding: 5px 15px;
+    background-color: rgb(243, 243, 9);
+}
+
+.updatePlano:hover{
+    background-color: rgb(202, 202, 29);
+}
+
+
+@media (max-width:990px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+    }
+    .table-responsive-sm{
+        max-width: 400px;
+    }
+
+}

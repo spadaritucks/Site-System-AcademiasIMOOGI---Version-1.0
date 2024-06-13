@@ -1,0 +1,269 @@
+body{
+    overflow-x: hidden;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.home h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.home button{
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.modalWindow{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    max-width: 85%;
+    max-height: 100%;
+    position: fixed;
+    background-color: white;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 40px 20px;
+    border-radius: 30px;
+    transition: 0.2s ease-in-out;
+    overflow-y: auto; /* Permitir scroll vertical dentro do modal */
+}
+
+.clienteUnidadeArea{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.containerUnidades{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 5px 15px;
+}
+
+.componentUnidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    border-radius: 30px;
+    padding: 10px 10px;
+    text-align: center;
+    max-width: 350px;
+    margin: 10px;
+}
+
+.componentUnidades h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.componentUnidades p{
+    font-size: 16px;
+}
+
+.componentUnidades img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.componentUnidades button{
+    border: none;
+    background-color: greenyellow;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.componentUnidades button a{
+    text-decoration: none;
+    color: black;
+}
+
+.painelUnidades {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.painelShow {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-right: 50px;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    border-radius: 20px;
+    min-height: 300px;
+}
+
+.painelCreate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+    margin-left: 50px;
+
+}
+
+.painelCreate input{
+    max-width: 200px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 8px;
+    padding: 5px 10px;
+    box-shadow: 2px  2px 2px 2px  #ccc;
+}
+
+.painelCreate select{
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+    box-shadow: 4px 4px 4px 4px #ccc;
+}
+
+#formAddUnidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#formEditUnidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#formDeleteUnidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkBoxRecursos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.tableUnidades{
+    border-spacing: 10px;
+    border-collapse: separate;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.tableUnidades th{
+    text-transform: uppercase;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    border-radius: 20px;
+}
+
+.addUnidadeArea {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.editUnidadeArea {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deleteUnidadeArea {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonsOperacion {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#imgPreview{
+    width: 200px;
+    border-radius: 30px;
+} 
+
+
+@media (max-width:990px) {
+    .containerUnidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .componentUnidades{
+        margin-top: 100px;
+    }
+
+    .painelUnidades {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .painelShow {
+        margin-right: 0;
+        margin-bottom: 10px;
+
+    }
+
+    .painelCreate {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+}
+
+
+@media (max-width:490px) {
+
+
+    .containerUnidades{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .componentUnidades{
+        margin-top: 20px;
+    }
+}
